@@ -9,9 +9,9 @@ int main(void)
 	int n;
 	char alpha;
 
-	for (n = 0; n < 10; n++)
+	for (n = 48; n <= 57; n++)
 	{
-		putchar(48 + 0);
+		putchar(n);
 	}
 	for (alpha = 'a'; alpha <= 'f'; alpha++)
 	{
