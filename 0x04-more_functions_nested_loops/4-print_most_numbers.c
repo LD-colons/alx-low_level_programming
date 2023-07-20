@@ -12,7 +12,7 @@ void print_most_numbers(void)
 	{
 		if (a == 50 || a == 52)
 		{
-			continue;
+			break;
 		}
 		else
 		{
