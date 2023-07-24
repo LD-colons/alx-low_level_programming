@@ -2,7 +2,7 @@
 /**
  * _puts - function print string followed by new line
  * @str: pointer as parameter
- * Return: Always 0
+ * Return: Always success
  */
 void _puts(char *str)
 {
