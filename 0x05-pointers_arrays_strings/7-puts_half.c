@@ -15,13 +15,13 @@ void puts_half(char *str)
 	}
 	int i;
 
-	if (count % 2 == 0)
+	if ((count % 2) == 0)
 	{
 		i = count;
 	}
 	else
 	{
-		i = count - 1;
+		i = count + 1;
 	}
 	int j;
 
