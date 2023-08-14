@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	_putchar(__FILE_);
+	_putchar(__FILE__);
 	_putchar('\n');
 	return (0);
 }
