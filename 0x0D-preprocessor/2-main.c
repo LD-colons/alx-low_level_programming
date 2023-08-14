@@ -6,7 +6,14 @@
  */
 int main(void)
 {
-	_putchar(__FILE__);
+	int i;
+	char a[] = __FILE__;
+
+	i = 0;
+	while (a[i] != '\0')
+	{
+	_putchar(a[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
