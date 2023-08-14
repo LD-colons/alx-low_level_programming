@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - where the program begin
@@ -7,7 +6,7 @@
  */
 int main(void)
 {
-	_putchar(__FILE__);
+	_putchar(__FILE_);
 	_putchar('\n');
 	return (0);
 }
