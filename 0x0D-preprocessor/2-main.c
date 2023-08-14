@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	printf(_FILE_);
-	puts('\n');
+	_putchar(_FILE_);
+	_putchar('\n');
 	return (0);
 }
