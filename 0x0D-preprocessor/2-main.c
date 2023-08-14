@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - where the program begin
  *
@@ -6,14 +6,6 @@
  */
 int main(void)
 {
-	int i;
-	char a[] = __FILE__;
-
-	i = 0;
-	while (a[i] != '\0')
-	{
-	_putchar(a[i]);
-	}
-	_putchar('\n');
+	printf("%s\n", __FILE__);
 	return (0);
 }
