@@ -4,11 +4,11 @@
  * @head: pointer to header of the list
  * Return: Nothing
  */
-void free_list(list_h head)
+void free_list(list_t *head)
 {
-	list_t *newone = header;
+	list_t *newone = head;
 
-	while (newon != NULL)
+	while (newone != NULL)
 	{
 		list_t *next = newone->next;
 

@@ -22,3 +22,4 @@ int main(void)
     free_list(head);
     head = NULL;
     return (0);
+}
