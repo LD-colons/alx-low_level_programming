@@ -12,10 +12,20 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	if (temp == NULL)
 		return (NULL);
-	while (ptr->next != NULL)
+	temp->n = n;
+	temp->next = NULL;
+	if (*head == NULL)
 	{
-		ptr = ptr->next;
+		*head = temp;
+		return (temp);
 	}
-	ptr->next = temp;
+	else
+	{
+		while (ptr->next != NULL)
+		{
+			ptr = ptr->next;
+		}
+		ptr->next = temp;
+	}
 	return (temp);
 }
